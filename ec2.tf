@@ -3,6 +3,6 @@ resource "aws_instance" "my_ec2" {
   instance_type = "t3.micro"              # Free-tier eligible
 
   tags = {
-    Name = "Terraform-EC2"
+    Name = "Terraform-EC3"
   }
 }
